@@ -1,0 +1,86 @@
+body {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+
+}
+
+/*h1 {*/
+/*    color: white;*/
+/*}*/
+
+#speed {
+    font-size: 20vw;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+}
+
+#unit {
+    font-size: 5vw;
+    margin-top: -10px;
+
+}
+
+#street {
+    font-size: 4vw;
+    font-style: italic;
+
+
+#speed-limit-img {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: auto;
+
+}
+
+.speed-regular {
+    color: white;
+}
+
+.speed-too-slow {
+    color: orange;
+}
+
+.speed-too-fast {
+    color: red;
+}
+
+#speed-limit-img {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 80px;
+    height: auto;
+
+}
+
+
+
+@media (orientation: landscape) {
+    #speed {
+        font-size: 15vw;
+    }
+
+    #unit {
+        font-size: 4vw;
+    }
+
+    #street {
+        font-size: 3vw;
+    }
+
+    #speed-limit {
+        font-size: 4vw}
+}
+}

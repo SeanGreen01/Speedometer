@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MAD1 Speedometer</title>
+    <link href="euU0rRukLf.css" type="text/css" rel="stylesheet" />
+    <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+
+    <div id="speedometer-view">
+        <header>
+            <p>MAD1 Speedometer</p>
+        </header>
+        <main>
+            <p id="speed">--</p>
+            <p id="unit">--</p>
+            <p id="street">--</p>
+            <img id="speed-limit-img" src="" alt="Speed Limit Sign">
+        </main>
+        <footer>
+            Author Notice
+        </footer>
+    </div>
+
+
+    <div id="settings-view">
+
+        <header><p>Settings</p></header>
+
+        <main>
+
+
+            <label for="speed-unit">Speed Unit:</label>
+
+            <select id="speed-unit">
+
+                <option value="MPH">Always MPH</option>
+                <option value="KMH">Always KM/H</option>
+                <option value="LOCAL">Local Units</option>
+
+            </select>
+
+
+            <button id="save-settings">Save</button>
+        </main>
+
+    </div>
+
+<script src="model_euU0rRukLf.js"></script>
+<script src="view_euU0rRukLf.js"></script>
+<script src="controller_euU0rRukLf.js"></script>
+<script src="euU0rRukLf.js"></script>
+<script src="settings.js"></script>
+
+
+</body></html>

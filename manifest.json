@@ -1,0 +1,22 @@
+{
+  "name":"MAD 1 Speedometer",
+  "short_name":"Speedo",
+  "start_url":"https://devweb2024.cis.strath.ac.uk/~hsb23128/euU0rRukLf.html",
+  "display":"standalone",
+  "background_color":"#000000",
+  "theme_color":"#ffffff",
+  "scope": ".",
+  "description":"This is the manifest for the speedometer app",
+  "icons":[
+    {
+      "src":"images/speedo.png",
+      "sizes":"73x95",
+      "type":"image/png"
+    },
+    {
+      "src":"images/image.jpeg",
+      "sizes":"512x512",
+      "type":"image/jpeg"
+    }
+  ]
+}
